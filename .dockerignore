@@ -1,0 +1,5 @@
+.git
+.DS_STORE
+.vagrant
+dockerhost
+node_modules

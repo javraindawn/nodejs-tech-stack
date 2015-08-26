@@ -1,0 +1,4 @@
+.DS_STORE
+.vagrant
+.envvars
+node_modules

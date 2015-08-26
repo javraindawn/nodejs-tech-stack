@@ -1,0 +1,20 @@
+## This file will be included by our bin/start.sh
+## file and can be used to overload or add an ENV
+## vars before our app starts
+
+export NODE_ENV=local   # Options: [local, dev, staging, production]
+
+## Make sure the below never make it into any of the other .envvars files
+## these are for local dev only
+
+export PGHOST="postgres"
+export PGUSER="postgres"
+export PGPASSWORD=$POSTGRES_PASSWORD
+
+export LOCAL_DB_NAME="project"
+export LOCAL_DB_USER="project"
+export LOCAL_DB_PASS="project_password"
+export LOCAL_DB_HOST="postgres"
+
+export TEST_DB_NAME="project_test"
+export TEST_DB_USER="project_test"
