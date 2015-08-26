@@ -17,6 +17,6 @@ exports.register = function(server, options, next) {
 }
 
 exports.register.attributes = {
-  name: 'mad-api-hello',
+  name: 'project-api-hello',
   version: '1.0.0'
 }
