@@ -87,3 +87,5 @@ vagrant rsync-auto
 
 
 ###### - -
+
+This project was heavily inspired from [ZehnerGroup](https://github.com/zehnergroup)'s Vagrant + Docker stacks used in the Locker Room Project.
